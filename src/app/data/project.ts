@@ -30,6 +30,7 @@ export const projects: Project[] = [
       "Tailwind CSS",
       "DaisyUI",
       "Better Auth",
+      "MONGODB",
     ],
     image: "/images/bangla-news.png",
     liveUrl: "https://bangla-news-project.vercel.app/",
@@ -60,10 +61,11 @@ export const projects: Project[] = [
       "Tailwind CSS",
       "DaisyUI",
       "REST API",
+      "MONGODB"
     ],
     image: "/images/bazar-dor.png",
-    liveUrl: "",
-    githubUrl: "",
+    liveUrl: "https://bajar-dor-project-nc2c.vercel.app/",
+    githubUrl: "https://github.com/towhidul-dev-ai/bajar-dor-project",
     challenges: [
       "Fetching and displaying product data from an API.",
       "Filtering products by category.",
@@ -84,10 +86,10 @@ export const projects: Project[] = [
       "A fitness application concept focused on organizing fitness-related information in a user-friendly interface.",
     longDescription:
       "FitLog is one of my web development projects. This page provides an overview of the project; update its details to match the features in your actual implementation.",
-    technologies: ["Next.js", "React", "TypeScript", "REST API"],
+    technologies: ["Next.js", "React", "TypeScript", "REST API", "Tailwind CSS"],
     image: "/images/fitlog.png",
-    liveUrl: "",
-    githubUrl: "",
+    liveUrl: "https://workout-nextjs-project.vercel.app/",
+    githubUrl: "https://github.com/towhidul-dev-ai/workout-nextjs-project",
     challenges: [
       "Building reusable interface components.",
       "Organizing application data and page layouts.",
