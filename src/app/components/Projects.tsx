@@ -185,13 +185,6 @@ export default function Projects() {
 
                   {/* Project links */}
                   <div className="mt-6 flex flex-wrap items-center gap-4 border-t border-white/10 pt-5">
-                    {/* <Link
-                      href={`/projects/${project.slug}`}
-                      className="inline-flex items-center gap-2 font-semibold text-emerald-300 transition-colors hover:text-emerald-200"
-                    >
-                      View Details
-                      <span aria-hidden="true">→</span>
-                    </Link> */}
                      <a
                     href={project.githubUrl}
                     target="_blank"
@@ -201,7 +194,13 @@ export default function Projects() {
                     View on GitHub
                      <span aria-hidden="true">↗</span>
                     </a>
-
+                     <Link
+                      href={`/projects/${project.slug}`}
+                      className="inline-flex items-center gap-2 font-semibold text-emerald-300 transition-colors hover:text-emerald-200"
+                    >
+                      View Details
+                      <span aria-hidden="true">→</span>
+                    </Link>
 
                     {project.liveUrl && (
                       <a
