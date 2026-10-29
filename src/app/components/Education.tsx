@@ -42,7 +42,7 @@ export default function Education() {
             </div>
 
             <p className="mt-4 text-xs text-slate-500">
-              Add your exact graduation year and official degree title.
+              Computer Science and Technology.
             </p>
           </div>
         </div>

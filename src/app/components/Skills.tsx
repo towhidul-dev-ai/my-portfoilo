@@ -54,9 +54,9 @@ export default function Skills() {
           ))}
         </div>
 
-        <p className="mt-6 text-sm text-slate-500">
+        {/* <p className="mt-6 text-sm text-slate-500">
           Keep only the technologies and skills you can confidently explain.
-        </p>
+        </p> */}
       </div>
     </section>
   );
