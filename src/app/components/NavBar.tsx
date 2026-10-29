@@ -20,7 +20,7 @@ export default function NavBar() {
             href="/#home"
             className="text-xl font-extrabold text-white"
           >
-            Towhidul<span className="text-emerald-400">.</span>
+            Shahed<span className="text-emerald-400">.</span>
           </Link>
         </div>
 
